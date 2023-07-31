@@ -24,9 +24,12 @@ import { HttpClientModule }        from '@angular/common/http';
 import { MatMenuModule}            from '@angular/material/menu';
 import { FormsModule }             from '@angular/forms';
 
+import { NavComponent } from './components/nav/nav.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
