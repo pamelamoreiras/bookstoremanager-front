@@ -25,11 +25,13 @@ import { MatMenuModule}            from '@angular/material/menu';
 import { FormsModule }             from '@angular/forms';
 
 import { NavComponent } from './components/nav/nav.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavComponent
+    NavComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
