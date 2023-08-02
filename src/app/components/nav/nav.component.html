@@ -1,32 +1,35 @@
-<p>
-    <mat-toolbar color="primary">
-        <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
-            <mat-icon>menu</mat-icon>
-          </button>
+<mat-drawer-container class="container mat-elevation-z8">
+  <img src="../../../assets/library-book.svg" alt="book">
+  <br>
+
+   <button class="home-button" mat-button color="primary">
+    <mat-icon>home</mat-icon>
+    Início
+  </button>
+  <br>
+
+  <button class="home-button" mat-button color="primary">
+    <mat-icon>person</mat-icon>
+    Usuários
+  </button>
+  <br>
+
+  <button class="home-button" mat-button color="primary">
+    <mat-icon>assignment_ind</mat-icon>
+    Autores
+  </button>
+  <br>
+
+  <button class="home-button" mat-button color="primary">
+    <mat-icon>assignment</mat-icon>
+    Editoras
+  </button>
+  <br>
+
+  <button class="home-button" mat-button color="primary">
+    <mat-icon>library_books</mat-icon>
+    Livros
+  </button>
+  <br>
   
-          <mat-menu #menu="matMenu">
-  
-            <button mat-menu-item>
-                <mat-icon>home</mat-icon>
-                <span>Home</span>
-                </button>
-    
-            <button mat-menu-item>
-                <mat-icon>face</mat-icon>
-                <span>Clientes</span>
-                </button>
-    
-            <button mat-menu-item>
-                <mat-icon>credit_card</mat-icon>
-                <span>Contas</span>
-                </button>
-  
-          </mat-menu>
-          
-      <span>Bookstore Manager</span>
-      <span class="spacer"></span>
-      <button mat-icon-button class="icon" aria-label="Example icon-button with share icon">
-        <mat-icon>code</mat-icon>
-      </button>
-    </mat-toolbar>
-  </p>
+</mat-drawer-container>
